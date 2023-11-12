@@ -1,0 +1,16 @@
+.pageheader__menu {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  height: auto;
+  background-color: rgb(52, 52, 52);
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  list-style-type: none;
+  flex-wrap: wrap;
+
+  li:hover {
+    font-weight: bold;
+  }
+}
