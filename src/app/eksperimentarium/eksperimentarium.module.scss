@@ -1,0 +1,31 @@
+// Colorvariables
+$lysegrøn: #56ad57;
+$mørkegrøn: #3a7d3c;
+$blå: #547391;
+$brun: #6354bf;
+
+.wrapper {
+  margin-inline: 10%;
+
+  h1 {
+    font-size: clamp(1rem, 0.6rem + 2vw, 3rem);
+  }
+
+  p {
+    font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+    text-align: justify;
+  }
+}
+
+.img__container {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+
+    margin-bottom: -0.25rem;
+  }
+}

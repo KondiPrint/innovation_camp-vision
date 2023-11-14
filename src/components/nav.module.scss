@@ -1,16 +1,32 @@
+// Colorvariables
+$lightgreen: #56ad57;
+$darkgreen: #3a7d3c;
+$blue: #547391;
+$brown: #6354bf;
+
 .pageheader__menu {
   display: flex;
-  gap: 1rem;
-  padding: 0.5rem;
+  font-size: 1.2rem;
+  gap: 2rem;
+  padding-block: 0.5rem;
   height: auto;
-  background-color: rgb(52, 52, 52);
-  justify-content: center;
-  align-items: center;
+  background-color: $darkgreen;
   color: #fff;
   list-style-type: none;
   flex-wrap: wrap;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
 
   li:hover {
     font-weight: bold;
+  }
+  a {
+    width: 4.7%;
   }
 }

@@ -1,0 +1,65 @@
+// Colorvariables
+$lysegrøn: #56ad57;
+$mørkegrøn: #3a7d3c;
+$blå: #547391;
+$brun: #6354bf;
+
+.wrapper {
+  margin-inline: 10%;
+
+  h1 {
+    font-size: clamp(1rem, 0.6rem + 2vw, 3rem);
+    text-align: center;
+  }
+  .undertitle,
+  .paragraphs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  h3 {
+    font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
+    text-align: justify;
+    width: 750px;
+  }
+  p {
+    font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+    text-align: justify;
+    width: 650px;
+  }
+}
+.hero__container {
+  margin-top: -10px;
+  position: relative;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  p {
+    position: absolute;
+    translate: -50% -50%;
+    top: 15%;
+    left: 50%;
+    font-size: clamp(1rem, 0.75rem + 1.25vw, 2.25rem);
+    color: #fff;
+    font-style: italic;
+  }
+}
+
+.card__container {
+  .card__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .cards {
+      transition: 0.5s;
+      transform: scale(0.9);
+      object-fit: cover;
+      width: 100%;
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
+}
