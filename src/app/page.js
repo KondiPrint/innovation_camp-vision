@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.hero__container}>
-        <p>"Rønde, klima er ikke op ad bakke!"</p>
+        <p>"Rønde; klima er ikke op ad bakke!"</p>
         <img src="../../assets/hero-graphic-XS.svg" />
       </div>
       <main className={styles.wrapper}>
